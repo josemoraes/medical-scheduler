@@ -1,0 +1,62 @@
+{
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "Fulano da Silva",
+      "cpf": "99999999999",
+      "codigo_sus": "99999999999",
+      "endereco": {
+        "rua": "Avenida Dona Antônia",
+        "numero": 6968,
+        "bairro": "centro",
+        "cidade": "Londrina",
+        "estado": "PR",
+        "cep": "99999999",
+        "complemento": "apartamento 69"
+      },
+      "contatos_de_emergencia": [
+        {
+          "grau_de_parentesco": "filho",
+          "nome": "José",
+          "celular": "99 99999 9999"
+        },
+        {
+          "grau_de_parentesco": "esposa",
+          "nome": "Claudia",
+          "celular": "99 99999 9999"
+        }
+      ]
+    }
+  ],
+  "unidades_de_saude": [
+    {
+      "id": 1,
+      "nome": "PSF centro",
+      "endereco": {
+        "rua": "Avenida Dona Antônia",
+        "numero": 6968,
+        "bairro": "centro",
+        "cidade": "Londrina",
+        "estado": "PR",
+        "cep": "99999999",
+        "complemento": ""
+      }
+    }
+  ],
+  "agendamentos": [
+    {
+      "paciente": 1,
+      "unidade_de_saude": 1,
+      "data_agendamento": "06/07/2020 08:30",
+      "confirmado": true,
+      "observacoes_da_unidade_de_saude": "Seu Fulano da Silva precisa trazer o cartão de vacinação"
+    },
+    {
+      "paciente": 1,
+      "unidade_de_saude": 1,
+      "data_agendamento": "10/07/2020 08:30",
+      "confirmado": false,
+      "observacoes_da_unidade_de_saude": ""
+    }
+  ]
+}
