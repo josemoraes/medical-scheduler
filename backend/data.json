@@ -40,6 +40,88 @@
         "estado": "PR",
         "cep": "99999999",
         "complemento": ""
+      },
+      "medicos": {
+        "id": 1,
+        "nome": "Fernando",
+        "areas_de_atuacao": ["clínico geral", "pediatria"],
+        "agenda_da_semana": [
+          {
+            "dia_da_semana": "07/07/2020",
+            "horarios": [
+              {
+                "intervalo": "09:00 - 10:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "10:00 - 11:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "14:00 - 15:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              },
+              {
+                "intervalo": "15:00 - 16:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              }
+            ]
+          },
+          {
+            "dia_da_semana": "09/07/2020",
+            "horarios": [
+              {
+                "intervalo": "09:00 - 10:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "10:00 - 11:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "14:00 - 15:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              },
+              {
+                "intervalo": "15:00 - 16:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              }
+            ]
+          },
+          {
+            "dia_da_semana": "10/07/2020",
+            "horarios": [
+              {
+                "intervalo": "09:00 - 10:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "10:00 - 11:00",
+                "vagas_disponiveis": 2,
+                "tipo_de_atendimento": "pediatria"
+              },
+              {
+                "intervalo": "14:00 - 15:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              },
+              {
+                "intervalo": "15:00 - 16:00",
+                "vagas_disponiveis": 4,
+                "tipo_de_atendimento": "clínico geral"
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -47,16 +129,11 @@
     {
       "paciente": 1,
       "unidade_de_saude": 1,
-      "data_agendamento": "06/07/2020 08:30",
+      "medico": 1,
+      "tipo_de_atendimento": "clínico geral",
+      "data_agendamento": "07/07/2020 09:30",
       "confirmado": true,
       "observacoes_da_unidade_de_saude": "Seu Fulano da Silva precisa trazer o cartão de vacinação"
-    },
-    {
-      "paciente": 1,
-      "unidade_de_saude": 1,
-      "data_agendamento": "10/07/2020 08:30",
-      "confirmado": false,
-      "observacoes_da_unidade_de_saude": ""
     }
   ]
 }
