@@ -1,15 +1,12 @@
-import React from "react";
-import { DatePicker, Button } from "antd";
-// import { Container } from './styles';
+import React from 'react';
+import Header from '~/components/Header';
 
 function Dashboard() {
   return (
-    <div>
-      <DatePicker />
-      <Button type="primary" style={{ marginLeft: 8 }}>
-        Primary Button
-      </Button>
-    </div>
+    <>
+      <Header />
+      <h2>Dashboard</h2>
+    </>
   );
 }
 
